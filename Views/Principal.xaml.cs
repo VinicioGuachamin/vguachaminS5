@@ -11,7 +11,7 @@ public partial class Principal : ContentPage
     {
         statusMessage.Text = "";
         App.personRepo.AddNewPerson(txtName.Text);
-        statusMessage.Text = App.personRepo.StatusMessage;
+        statusMessage.Text = App.personRepo.StatusMessage; 
 
     }
 
